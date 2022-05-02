@@ -1,0 +1,43 @@
+.nav-wrapper {
+    max-width: 1440px;
+    margin: 0 auto;
+    display: flex;
+}
+
+.land {
+    color: var(--primary-color);
+    font-weight: 700;
+}
+
+.docs {
+    color: var(--heading-color);
+    font-weight: 700;
+}
+
+.nav {
+
+    padding: 1.3rem 2rem;
+    border: 1px solid var(--border-color);
+    align-items: center;
+    
+}
+
+.nav-menus {
+    margin-left: auto;
+}
+
+.nav-link-wrapper {
+    display: flex;
+    align-items: center;
+}
+
+.nav-links {
+    margin-right: 2.5rem;
+    cursor: pointer;
+}
+
+.btn-create-account {
+    color: var(--primary-color);
+    border: .5px solid var(--primary-color);
+    padding: .8rem 1.5rem;
+}

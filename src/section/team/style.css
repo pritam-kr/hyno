@@ -1,0 +1,20 @@
+.team-wrapper{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    gap: 1rem;
+}
+
+.team-info{
+    margin: 0 auto;
+    max-width: 30rem;
+   
+    text-align: center;
+    padding: 2rem;
+}
+.team-avatar{
+    width: 13rem;
+    height: 13rem;
+    border-radius: 10rem;
+    margin-bottom: 2rem;
+}

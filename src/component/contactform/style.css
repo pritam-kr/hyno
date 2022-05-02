@@ -1,0 +1,40 @@
+.contact-form {
+    background-color: #fff;
+    position: relative;
+
+}
+
+.btn-form-submit {
+    background-color: var(--primary-color);
+    color: var(--white-text);
+    width: 100%;
+}
+
+.contact-form {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 4rem;
+    width: 600px;
+    margin-bottom: -15rem;
+}
+
+.form {
+    padding: 1rem;
+    width: 100%;
+    border-radius: 0;
+}
+
+
+.contact-form .textarea {
+    height: 200px;
+}
+
+.input-row {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.input-row .input {
+    margin-right: 0;
+}

@@ -1,0 +1,24 @@
+
+.footer{
+    background-color: var(--footer-bg);
+    color: var(--white-text) ;
+}
+
+.footer-wrapper{
+    margin:  0 auto;
+    max-width: 1440px;
+    display: grid;
+    justify-content: center;
+    grid-template-columns: 30% 20.333% 20.333% 20.333%;
+     gap: 2rem;
+    padding-bottom: 8rem;
+    margin-top: 13rem;
+}
+
+.footer-wrapper .docs{
+    color: var(--white-text) ;
+
+}
+.copyright-text{
+    text-align: center;
+}

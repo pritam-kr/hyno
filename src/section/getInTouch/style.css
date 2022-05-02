@@ -1,0 +1,24 @@
+.getin-touch-section{
+    background-color: #637580;
+    color: #fff;
+}
+
+.contact-info-wrapper{
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    align-items: center;
+    width: 600px;
+    margin: 0 auto;
+    margin-top: 4rem;
+}
+
+.contact-info-wrapper .contact-box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.contact-icon{
+    color: var(--white-text);
+    margin-bottom: 1rem;
+}

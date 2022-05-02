@@ -1,0 +1,32 @@
+.showcase-section {
+    background-color: var(--primary-color);
+    min-height: 500px;
+    color: var(--white-text);
+    padding-bottom: 0;
+}
+
+.showcase-wrapper {
+    display: grid;
+    grid-template-columns: 30% 70%;
+    position: relative;
+}
+
+.showcase-image {
+    display: flex;
+    align-items: flex-end;
+
+}
+
+.showcase-image img {
+    width: 250px;
+    position: absolute;
+    top: 8.2rem;
+}
+.showcase-content{
+    max-width: 75rem;
+}
+
+.showcase-content h1{
+    font-size: 4rem;
+    color: var(--white-text);
+}
